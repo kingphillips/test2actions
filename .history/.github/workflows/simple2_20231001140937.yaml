@@ -1,0 +1,6 @@
+name: shell commands
+
+on: [push]
+
+jobs:
+  run
