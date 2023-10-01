@@ -16,12 +16,9 @@ jobs:
           npm -v  
       - name: python command    
         run: |
-          import platform
-          print(platform.processor())
-        shell: python  
+          import (platform.processor)
   run-windows-commands:
-    runs-on: windows-latest
-    needs: ["run-shell-command"]    
+    runs-on: windows-latest    
     steps:
       - name: Directory
         run: Get-Location
