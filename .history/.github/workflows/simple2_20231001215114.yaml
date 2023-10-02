@@ -1,6 +1,6 @@
 name: shell commands
 
-on: [pull_request]
+on: [pull]
 
 jobs:
   run-shell-command:
