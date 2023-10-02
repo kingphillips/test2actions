@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "us-east-1"
+    reg
 }
 
 resource "aws_vpc" "test2" {
